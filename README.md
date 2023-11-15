@@ -1,4 +1,4 @@
-# DP_Coinchange_lab
+# DP_Knapsack_lab
 
 This lab practices problem solving via Dynamic Programming.
 
