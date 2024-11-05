@@ -8,6 +8,7 @@ This lab practices solving two different variations of Knapsack problems via Dyn
   * Item.h: define the ItemClass
   * knapsack_func.h, knapsack_func.cpp: declare and implement the various knapsack problem solving functions.
   * main.cpp: read items, and test various knapsack functions.
+  * Makefile: for compiling the executable **lab3.exe**.
 
 ## Requirements:
 
@@ -33,8 +34,6 @@ This lab practices solving two different variations of Knapsack problems via Dyn
   $ ./lab5.exe < input1.txt > myoutput1.txt  //Run the program, redirect standard input to file input1.txt, and standard output is redirected to myoutput1.txt 
   $ diff output1.txt myoutput1.txt   //check for difference between expected output1.txt and my program’s output: myoutput1.txt 
  ```
- 
-So please be careful with the output format, and make sure you delete other cout statements that you add for debugging purposes before submitting to the autogravder system.
 
 For example,  if input1.txt contains the following: 
 ```
