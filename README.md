@@ -1,10 +1,12 @@
 # DP_Knapsack_lab
 
-This lab practices problem solving via Dynamic Programming.
- 
+This lab practices solving two different variations of Knapsack problems via Dynamic Programming.
+ * 0/1 Knapsack problem, where each item is either included once or not included
+ * unlimited Knapsack problem, where each item can be chosen repeatedly.
 
 
 ## Requirements:
+
 
 Consider another variant of Knapasck problem where there are unlimited supply of each item, and come up a recursive solution to the problem. 
 
