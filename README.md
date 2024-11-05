@@ -1,8 +1,7 @@
 # DP_Knapsack_lab
 
 This lab practices problem solving via Dynamic Programming.
-
-This lab is based on lab4. You can use the solution provided below as your starting point, or use your own lab4 code as starting point: 
+ 
 
 
 ## Requirements:
@@ -24,31 +23,11 @@ int UnlimitedKnapsack(const vector<Item> & objects, int weight_capacity, vector<
 Improve the above algorithm’s performance by using memoization to avoid recomputing same subproblems. 
 
 ### Note: 
-You only need to return the max. value achieved for this requirement. No need to compute the vector of items chosen.
-Implement the general Knapsack problem’s dynamic programming solution using tabulation approach.
-Extra credit: use an additional table to store information so that you can report the items chosen that yield the total maximum value.
+
 
 4.  Test your three functions from main, and output the chosen items (in ascending order of the item name) following the expected format (see below Test cases for details).
    
-Your main should work similar to that in lab4: 
-```
-int main( ) {
-vector<Item> items; 
 
-  1. Read from standard input the number of different types of items
-  2. Use a loop to 
-	Read from standard input for each type’s name, weight, value, quantity; 
-             Use these to initialize a Item object, and then push it into items 
-
-  3. Read the weight capacity for unlimited Knapsack
-  4. Call recursive unlimited KnapSack, display the max value achieved, and sort the returned vector by Item’s name, display the vector returned 
-  5. Call the memoization version of unlimited Knapsack, and display the max value achieved. 
-
-  6. Read the weight capacity for the general knapsack 
-  6. Call your tabulation version of general Knapasck,  display the maximum value returned 
-  7. (Extra credit) Print the items chosen that achieve the above value, in ascending order of item’s name.
-} 
-```
 
 ## Test cases:
 
@@ -69,7 +48,6 @@ Sunscreen 2 10 2
 Note: this input specifies that there are 3 different types of items to choose from, the total weight capacity for both version of knapsack problem is 8: 
 
 
-
 The output2.txt gives the expected output:
 
 Unlimited Knapsack with weight capacity: 8
@@ -87,9 +65,9 @@ Testcase 3: Input3.txt output3.txt  (10 types of items)
 
 What to submit 
 
-Submit all six files (with the exact file names as required) on autogravder system at this link: 
-https://storm.cis.fordham.edu:8443/web/project/212?current_tab=submit
+Submit all six files (with the exact file names as required) on autogravder system at this link: TBA.
+
 The autogravder system will run command “make” to compile your program, and then run the following commands to test your program with the above three cases one by one: 
-$./lab5.exe < input1.txt > output1_result.txt 
+$./lab3.exe < input1.txt > output1_result.txt 
 $ diff output1_result.txt output1.txt. 
 Repeat for test case 2 and 3. 
