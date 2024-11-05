@@ -4,15 +4,20 @@ This lab practices solving two different variations of Knapsack problems via Dyn
  * 0/1 Knapsack problem, where each item is either included once or not included
  * unlimited Knapsack problem, where each item can be chosen repeatedly.
 
+## Provided files:
+  * Item.h: define the ItemClass
+  * knapsack_func.h, knapsack_func.cpp: declare and implement the various knapsack problem solving functions.
+  * main.cpp: read items, and test various knapsack functions.
 
 ## Requirements:
 
 1. 0/1 Knapsack Problem:
+   
     * for this problem, a basic recursive algorithm is given **int Knapsack_recursive ()**
     * Implement another recursive function **Knapsack_recursive_full** that additionally set a reference parameter to store indices of items included.
     * Implement DP algorithm using the tabulation approach, in function **Knapsack_tabulation**.
 
-2. Unlimited Knapsack Problem: 
+3. Unlimited Knapsack Problem: 
 
   * Write a pure recursive algorithm for this problem in **Unlimited_Knapsack_recursive**
   * Implement DP algorithm using the memoization approach, in **Unlimited_Knapsack_wrapper**, and **Unlimited_Knapsack_memoized**.
@@ -23,10 +28,11 @@ This lab practices solving two different variations of Knapsack problems via Dyn
 ## Test cases:
 
  Your program will be tested on multiple pairs of input and expected output. 
- ``
+ 
+ ```
   $ ./lab5.exe < input1.txt > myoutput1.txt  //Run the program, redirect standard input to file input1.txt, and standard output is redirected to myoutput1.txt 
   $ diff output1.txt myoutput1.txt   //check for difference between expected output1.txt and my program’s output: myoutput1.txt 
- ``
+ ```
  
 So please be careful with the output format, and make sure you delete other cout statements that you add for debugging purposes before submitting to the autogravder system.
 
