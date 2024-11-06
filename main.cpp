@@ -16,7 +16,7 @@ int main()
     //1. Read the number of types of items
     int item_num;
 
-    cout <<"How many types of items:";
+  //  cout <<"How many types of items:";
     cin >>item_num;
 
     //2. For loop that reads each item type's name, weight and value 
@@ -24,14 +24,14 @@ int main()
     string name;
     int wgt, value;
     for (int i=1;i<=item_num;i++) {
-       cout <<"What's name, weight, and value of "<<i<<"-th item:";
+       //cout <<"What's name, weight, and value of "<<i<<"-th item:";
        cin >> name >> wgt >> value;
        items.push_back (Item(name, wgt, value));
     }
 
     //3. Read in the weight capacity W 
     int W;
-    cout <<"What's the capacity of the Knapsack:";
+  //  cout <<"What's the capacity of the Knapsack:";
     cin >> W;
 
 
