@@ -18,10 +18,12 @@ This lab practices solving two different variations of Knapsack problems via Dyn
     * Implement another recursive function **Knapsack_recursive_full** that additionally set a reference parameter to store indices of items included.
     * Implement DP algorithm using the tabulation approach, in function **Knapsack_tabulation**.
 
-3. Unlimited Knapsack Problem: 
+      You can refer to the [in-class exercise ](https://docs.google.com/document/d/11SFWDhwUdlROWRuy7dKDpH-5tEh3539WrBRmS_D1zz4/edit?usp=sharing) from Nov 7 for hints. 
 
-  * Write a pure recursive algorithm for this problem in **Unlimited_Knapsack_recursive**
-  * Implement DP algorithm using the memoization approach, in **Unlimited_Knapsack_wrapper**, and **Unlimited_Knapsack_memoized**.
+3. Unlimited Knapsack Problem:
+   
+    * Write a pure recursive algorithm for this problem in **Unlimited_Knapsack_recursive**
+    * Implement DP algorithm using the memoization approach, in **Unlimited_Knapsack_wrapper**, and **Unlimited_Knapsack_memoized**.
 
   Hint: For the unlimited Knapsack Problem, you can refer to CoinChange problem  when thinking about the recursive solution.    
 
