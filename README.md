@@ -30,10 +30,10 @@ This lab practices solving two different variations of Knapsack problems via Dyn
 
 ## Test cases:
 
- Your program will be tested on multiple pairs of input and expected output. 
+**This part is under construction, as I am building testcases**. Your program will be tested on multiple pairs of input and expected output. 
  
  ```
-  $ ./lab5.exe < input1.txt > myoutput1.txt  //Run the program, redirect standard input to file input1.txt, and standard output is redirected to myoutput1.txt 
+  $ ./lab3.exe < input1.txt > myoutput1.txt  //Run the program, redirect standard input to file input1.txt, and standard output is redirected to myoutput1.txt 
   $ diff output1.txt myoutput1.txt   //check for difference between expected output1.txt and my program’s output: myoutput1.txt 
  ```
 
