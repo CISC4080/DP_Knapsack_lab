@@ -10,8 +10,8 @@ main.o: main.cpp Knapsack_func.h
 item.o: item.h item.cpp 
 	$(CC) $(CFLAGS) -c item.cpp
 
-Knapsack_func.cpp: item.h Knapsack_func.cpp
-	$(CC) $(CFLAGS) -c Knapsack_func.cpp
+knapsack_func.cpp: item.h knapsack_func.cpp
+	$(CC) $(CFLAGS) -c knapsack_func.cpp
 
 clean:
 	rm *.o lab3.exe
