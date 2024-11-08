@@ -1,10 +1,10 @@
 CC=g++
 CFLAGS=-g
 
-lab3.exe: main.o Item.o Knapsack_func.o
-	$(CC) -o lab3.exe $(CFLAGS) main.o Item.o Knapsack_func.o
+lab3.exe: main.o Item.o knapsack_func.o
+	$(CC) -o lab3.exe $(CFLAGS) main.o item.o knapsack_func.o
 
-main.o: main.cpp Knapsack_func.h
+main.o: main.cpp knapsack_func.h
 	$(CC) $(CFLAGS) -c main.cpp
 
 item.o: item.h item.cpp 
