@@ -1,0 +1,7 @@
+0/1 Knapsack, W=8
+max value:13
+Object chosen:Sanitizer Sunscreen 
+
+Unlimited Knapsack, W=8
+max value:40
+Objects chosen:Sunscreen Sunscreen Sunscreen Sunscreen 

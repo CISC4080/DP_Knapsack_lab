@@ -1,0 +1,7 @@
+0/1 Knapsack, W=10
+max value:41
+Objects chosen:item1 item3 
+
+Unlimited Knapsack, W=22
+max value:102
+Objects chosen:item4 item4 item2 item2 item2 item2 item2 item2 
