@@ -17,7 +17,8 @@ This lab practices solving two different variations of Knapsack problems via Dyn
     * for this problem, a basic recursive algorithm is given **int Knapsack_recursive ()**
     * Implement another recursive function **Knapsack_recursive_full** that additionally set a reference parameter to store indices of items included.
     * Implement DP algorithm using the tabulation approach, in function **Knapsack_tabulation**.
-   ```
+
+```
 int Knapsack_tabulation (const vector<Item> & items, int weight_capacity)
 {
 
@@ -25,6 +26,7 @@ int Knapsack_tabulation (const vector<Item> & items, int weight_capacity)
 ```
     * (Extra credit) Implement DP algorithm using the tabulation approach in the following function, which set **chosen** vector to store
    the indices of objects chosen that achieves the maximum value.
+
 ```
 //Extra credits: DP with Tabulation
 //Return maximum value achievable by choosing objects from the "items" vector 
@@ -39,6 +41,7 @@ int Knapsack_tabulation (const vector<Item> & items, int weight_capacity, vector
 3. Unlimited Knapsack Problem:
    
     * Write a pure recursive algorithm for this problem in **Unlimited_Knapsack_recursive**
+
 ```
 //Pure recursive solution 
 //Return maximum value achievable by choosing objects from "items" vector 
@@ -50,6 +53,7 @@ int Unlimited_Knapsack_recursive (const vector<Item> & items, int weight_capacit
 }
 ```
     * (Extra credits) Implement a pure recursive algorithm in function:
+
 ```
 //Extra credits: pure recursive solution + setting "chosen" vector 
 //Return maximum value achievable by choosing objects from "items" vector 
