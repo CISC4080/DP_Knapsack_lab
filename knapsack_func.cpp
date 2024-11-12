@@ -40,6 +40,16 @@ int Knapsack_recursive_full (const vector<Item> & items, int weight_capacity, in
 //DP with Tabulation
 //Return maximum value achievable by choosing objects from the "items" vector 
 // subject to the contraint that the total weight of chosen objects is less than weight_capacity
+//Each item can be chosen at most once 
+int Knapsack_tabulation (const vector<Item> & items, int weight_capacity)
+{
+
+}
+
+
+//Extra credits: DP with Tabulation
+//Return maximum value achievable by choosing objects from the "items" vector 
+// subject to the contraint that the total weight of chosen objects is less than weight_capacity
 // and set the "chosen" vector to include the indices of items chosen 
 //Each item can be chosen at most once 
 int Knapsack_tabulation (const vector<Item> & items, int weight_capacity, vector<int> & chosen)
@@ -47,10 +57,18 @@ int Knapsack_tabulation (const vector<Item> & items, int weight_capacity, vector
 
 }
 
-
-
 //////////////////////////Unlimited Knapsack /////////////////////////////
 
+//Pure recursive solution 
+//Return maximum value achievable by choosing objects from "items" vector 
+//subject to the contraint that the total weight of chosen objects is less than weight_capacity
+//Each item can be chosen multiple times (i.e., repetition allowed) 
+int Unlimited_Knapsack_recursive (const vector<Item> & items, int weight_capacity)
+{
+
+}
+
+//Extra credits: pure recursive solution + setting "chosen" vector 
 //Return maximum value achievable by choosing objects from "items" vector 
 //subject to the contraint that the total weight of chosen objects is less than weight_capacity
 //Each item can be chosen multiple times (i.e., repetition allowed) 
@@ -58,6 +76,7 @@ int Unlimited_Knapsack_recursive (const vector<Item> & items, int weight_capacit
 {
 
 }
+
 
 //Return maximum value achievable by choosing objects from "items" vector 
 //subject to the contraint that the total weight of chosen objects is less than weight_capacity
