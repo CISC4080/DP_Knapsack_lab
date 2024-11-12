@@ -19,9 +19,9 @@ This lab practices solving two different variations of Knapsack problems via Dyn
     * Implement DP algorithm using the tabulation approach, in function **Knapsack_tabulation**.
 
 ```
-int Knapsack_tabulation (const vector<Item> & items, int weight_capacity)
+   int Knapsack_tabulation (const vector<Item> & items, int weight_capacity)
 ```
-    * (Extra credit) Implement DP algorithm using the tabulation approach in the following function, which set **chosen** vector to store
+ * Implement DP algorithm using the tabulation approach in the following function, which set **chosen** vector to store
    the indices of objects chosen that achieves the maximum value.
 
 ```
