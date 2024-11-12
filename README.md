@@ -17,12 +17,51 @@ This lab practices solving two different variations of Knapsack problems via Dyn
     * for this problem, a basic recursive algorithm is given **int Knapsack_recursive ()**
     * Implement another recursive function **Knapsack_recursive_full** that additionally set a reference parameter to store indices of items included.
     * Implement DP algorithm using the tabulation approach, in function **Knapsack_tabulation**.
+   ```
+int Knapsack_tabulation (const vector<Item> & items, int weight_capacity)
+{
+
+}
+```
+    * (Extra credit) Implement DP algorithm using the tabulation approach in the following function, which set **chosen** vector to store
+   the indices of objects chosen that achieves the maximum value.
+```
+//Extra credits: DP with Tabulation
+//Return maximum value achievable by choosing objects from the "items" vector 
+// subject to the contraint that the total weight of chosen objects is less than weight_capacity
+// and set the "chosen" vector to include the indices of items chosen 
+//Each item can be chosen at most once 
+int Knapsack_tabulation (const vector<Item> & items, int weight_capacity, vector<int> & chosen)
+```
+
 
       You can refer to the [in-class exercise ](https://docs.google.com/document/d/11SFWDhwUdlROWRuy7dKDpH-5tEh3539WrBRmS_D1zz4/edit?usp=sharing) from Nov 7 for hints. 
 
 3. Unlimited Knapsack Problem:
    
     * Write a pure recursive algorithm for this problem in **Unlimited_Knapsack_recursive**
+```
+//Pure recursive solution 
+//Return maximum value achievable by choosing objects from "items" vector 
+//subject to the contraint that the total weight of chosen objects is less than weight_capacity
+//Each item can be chosen multiple times (i.e., repetition allowed) 
+int Unlimited_Knapsack_recursive (const vector<Item> & items, int weight_capacity)
+{
+
+}
+```
+    * (Extra credits) Implement a pure recursive algorithm in function:
+```
+//Extra credits: pure recursive solution + setting "chosen" vector 
+//Return maximum value achievable by choosing objects from "items" vector 
+//subject to the contraint that the total weight of chosen objects is less than weight_capacity
+//Each item can be chosen multiple times (i.e., repetition allowed) 
+int Unlimited_Knapsack_recursive (const vector<Item> & items, int weight_capacity, vector<int> & chosen)
+{
+
+}
+```
+      
     * Implement DP algorithm using the memoization approach, in **Unlimited_Knapsack_wrapper**, and **Unlimited_Knapsack_memoized**.
 
   Hint: For the unlimited Knapsack Problem, you can refer to CoinChange problem  when thinking about the recursive solution.    
