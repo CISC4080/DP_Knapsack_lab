@@ -40,16 +40,21 @@ int main()
     cout <<"max value:"<<maxV1_rec<<endl;
 
     vector<int> chosen;
-    Knapsack_recursive_full (items, W, item_num, chosen);
+    int maxV1_rec2 = Knapsack_recursive_full (items, W, item_num, chosen);
      //Todo: add cout statement to display the returned value, and the chosen objects 
     
     //5. Call 0/1 Knapsack (tabulation)  and display max. value achieved 
 
-    int maxV1_tab = Knapsack_tabulation (items, W, chosen);
+    int maxV1_tab = Knapsack_tabulation (items, W);
+    
+    int maxV1_tab2 = Knapsack_tabulation_full (items, W, chosen);   
     //Todo: add cout statement to display the returned value, and the chosen objects 
 
+
+    /////////////Unlimited Knapsack 
     //6. Call unlimited Knapsack (recursive implementation), and display max. value achieved 
-    int maxV2_rec = Unlimited_Knapsack_recursive (items, W, chosen);
+    int maxV2_rec = Unlimited_Knapsack_recursive (items, W);
+    int maxV2_rec2 = Unlimited_Knapsack_recursive_full (items, W, chosen);
     //Todo: add cout statement to display the returned value, and the chosen objects 
 
 
