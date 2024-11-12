@@ -1,6 +1,6 @@
 3
-Bottle-water 5 2 3
-Sanitizer 3 3 4
-Sunscreen 2 10 2 
+Bottle-water 5 2
+Sanitizer 3 3
+Sunscreen 2 10 
 8
 8
