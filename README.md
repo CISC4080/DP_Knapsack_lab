@@ -53,11 +53,21 @@ Note: this input specifies that there are 3 different types of items to choose f
 
 
 The output1.txt gives the expected max values for the two versions of Knapsack problem, and the corresponding set of items chosen. 
+```
+0/1 Knapsack, W=8
+max value:13
+Object chosen:Sanitizer Sunscreen 
 
-There are a total of three testcases:
+Unlimited Knapsack, W=8
+max value:40
+Objects chosen:Sunscreen Sunscreen Sunscreen Sunscreen
+```
+
+There are a total of three testcases (all pairs of files are provided). **Note that you don't need to worry about outputing the results in the same format
+as these output files, as the Autograder will call your functions and compare your functions' return values and reference parameters with the expected ones.**
 
 * Testcase 1.  input1.txt, output1.txt.  (2 types of items) 
-* Testcase 2: input2.txt output2.txt  or output2_2.txt  (4 types of items) 
+* Testcase 2: input2.txt output2.txt    (4 types of items) 
 * Testcase 3: Input3.txt output3.txt  (10 types of items)
 
 ## What to submit 
