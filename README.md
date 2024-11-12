@@ -34,7 +34,6 @@ int Knapsack_tabulation (const vector<Item> & items, int weight_capacity)
 int Knapsack_tabulation (const vector<Item> & items, int weight_capacity, vector<int> & chosen)
 ```
 
-
       You can refer to the [in-class exercise ](https://docs.google.com/document/d/11SFWDhwUdlROWRuy7dKDpH-5tEh3539WrBRmS_D1zz4/edit?usp=sharing) from Nov 7 for hints. 
 
 3. Unlimited Knapsack Problem:
