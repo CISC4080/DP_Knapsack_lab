@@ -52,21 +52,12 @@ Sunscreen 2 10 2
 Note: this input specifies that there are 3 different types of items to choose from, the total weight capacity for both version of knapsack problem is 8: 
 
 
-The output1.txt gives the expected output:
-```
-Unlimited Knapsack with weight capacity: 8
-Max. value achieved: 40
-With: Sunscreen Sunscreen Sunscreen Sunscreen 
-
-General Knapsack with weight capacity 8
-Max. value achieved: 23
-```
+The output1.txt gives the expected max values for the two versions of Knapsack problem, and the corresponding set of items chosen. 
 
 There are a total of three testcases:
 
 * Testcase 1.  input1.txt, output1.txt.  (2 types of items) 
 * Testcase 2: input2.txt output2.txt  or output2_2.txt  (4 types of items) 
-  Note that for this testcase, there are two ways to choose objects for general Knapsack problem that achieves the same maximum value. If you output matches with outpu2.txt OR output2_2.txt, then you pass this testcase. 
 * Testcase 3: Input3.txt output3.txt  (10 types of items)
 
 ## What to submit 
