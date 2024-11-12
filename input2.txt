@@ -1,7 +1,7 @@
 4
-item1 6 25 2
-item2 3 14 3
-item3 4 16 2
-item4 2 9  3
+item1 6 25
+item2 3 14
+item3 4 16
+item4 2 9
 10
 22
