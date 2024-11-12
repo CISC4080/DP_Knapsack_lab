@@ -46,7 +46,8 @@ int main()
     //5. Call 0/1 Knapsack (tabulation)  and display max. value achieved 
 
     int maxV1_tab = Knapsack_tabulation (items, W);
-    
+
+    //This is extra credit ..., comment it out if you are not doing this... 
     int maxV1_tab2 = Knapsack_tabulation_full (items, W, chosen);   
     //Todo: add cout statement to display the returned value, and the chosen objects 
 
@@ -54,6 +55,9 @@ int main()
     /////////////Unlimited Knapsack 
     //6. Call unlimited Knapsack (recursive implementation), and display max. value achieved 
     int maxV2_rec = Unlimited_Knapsack_recursive (items, W);
+    //Todo: add cout statement to display the returned value, and the chosen objects 
+    
+    //This is extra credit, commit this line if you are not doing this ... 
     int maxV2_rec2 = Unlimited_Knapsack_recursive_full (items, W, chosen);
     //Todo: add cout statement to display the returned value, and the chosen objects 
 
