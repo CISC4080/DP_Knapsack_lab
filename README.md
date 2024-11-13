@@ -76,7 +76,7 @@ as these output files, as the Autograder will call your functions and compare yo
 Submit your knapsack_func.cpp at the following site:
 [lab3 submission link.](https://storm.cis.fordham.edu:8443/web/project/2043)
 
-The total points for the autograding part is 120 (10 pts for each testcases, and 12 total testcases -- each of the three input files is used to test the four functions). 
+The total points for the autograding part is 120 (10 pts for each testcases, and a total of 12 testcases -- each of the three input files is used to test the four functions). 
 The extra credit parts (two functions) are worth 60 pts. 
 
 
