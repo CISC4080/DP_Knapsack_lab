@@ -18,15 +18,16 @@ This lab practices solving two different variations of Knapsack problems via Dyn
     * Implement another recursive function **Knapsack_recursive_full** that additionally set a reference parameter to store indices of items included.
     * Implement DP algorithm using the tabulation approach, in function **Knapsack_tabulation**.
     * (Extra credit) Implement DP algorithm using the tabulation approach in function **Knapsack_tabulation_full**, which sets **chosen** vector to store
-   the indices of objects chosen that achieves the maximum value.
-
+   the indices of objects chosen that achieves the maximum value. If you are not working on this extra credit requirement, just keep this function emtpy (don't comment or delete this function
+from the **knapsack_func.cpp**).
    You can refer to the [in-class exercise ](https://docs.google.com/document/d/11SFWDhwUdlROWRuy7dKDpH-5tEh3539WrBRmS_D1zz4/edit?usp=sharing) from Nov 7 for hints. 
 
 2. Unlimited Knapsack Problem:
    
     * Write a pure recursive algorithm for this problem in function **Unlimited_Knapsack_recursive**
     * (Extra credits) Implement a pure recursive algorithm in function **Unlimited_Knapsack_recursive_full**, which sets the **chosen** vector to
-the list of items chosen.
+the list of items chosen. If you are not working on this extra credit requirement, just keep this function emtpy (don't comment or delete this function
+from the **knapsack_func.cpp**). 
     * Implement DP algorithm using the memoization approach, in **Unlimited_Knapsack_wrapper**, and **Unlimited_Knapsack_memoized**.
 
   Hint: For the unlimited Knapsack Problem, you can refer to CoinChange problem  when thinking about the recursive solution.    
