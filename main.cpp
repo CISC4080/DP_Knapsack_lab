@@ -53,6 +53,8 @@ int main()
 
 
     /////////////Unlimited Knapsack 
+     //  cout <<"What's the capacity of the unlimited Knapsack:";
+    cin >> W;
     //6. Call unlimited Knapsack (recursive implementation), and display max. value achieved 
     int maxV2_rec = Unlimited_Knapsack_recursive (items, W);
     //Todo: add cout statement to display the returned value, and the chosen objects 
