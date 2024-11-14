@@ -8,7 +8,7 @@ main.o: main.cpp knapsack_func.h
 	$(CC) $(CFLAGS) -c main.cpp
 
 
-knapsack_func.cpp: item.h knapsack_func.cpp
+knapsack_func.cpp: Item.h knapsack_func.cpp
 	$(CC) $(CFLAGS) -c knapsack_func.cpp
 
 clean:
