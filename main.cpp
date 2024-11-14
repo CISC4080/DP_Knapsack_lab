@@ -11,6 +11,7 @@ int main()
     vector<Item> items; 
 
     //0. Push into items vector a "NULL" element
+    // WARNNING: when going through all items, please ignore this one!!!! 
     items.push_back (Item("NIL",0,0));
 
     //1. Read the number of types of items
